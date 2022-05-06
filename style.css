@@ -1,0 +1,345 @@
+body {
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.section {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.header {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.menu li a {
+    color: #212121;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+}
+
+.menu li a.active {
+    color: #2D76F9;
+    font-weight: 700;
+}
+
+.logo-important {
+    color: #2D76F9;
+}
+
+.btn {
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #2D76F9;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #2D76F9;
+    font-weight: 400;
+}
+
+.btn-third {
+    padding: 22px 60px;
+    border-color: white;
+    background: white;
+
+}
+
+.btn-fourth {
+    padding: 22px 60px;
+    background: none;
+    border-color: white;
+    color: white;
+
+}
+
+.main-section {
+    /* position: relative; */
+    min-height: 850px;
+
+}
+
+.main-section .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: url('./img/background.png') 100% 50% no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 80px;
+}
+
+.main-section .background-phone {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    margin-top: -300px;
+    width: 560px;
+    height: 610px;
+    background: url('./img/phone.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.main-section-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h1 {
+    font-size: 64px;
+    line-height: 85px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.h2 {
+    font-size: 36px;
+    line-height: 65px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.h2.h2-secondary {
+    color: white;
+}
+
+.h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.p {
+    line-height: 36px;
+    color: #747474;
+    margin-bottom: 40px;
+}
+
+.btn-secondary {
+    background: #2D76F9;
+    color: white;
+    padding: 22px 60px;
+}
+
+.section-advantages {
+    margin-top: 200px;
+}
+
+.section-advantages .icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url('./img/advantage-1.png') 50% 50% no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+.section-advantages .icon-2 {
+    background-image: url('./img/advantage-2.png');
+}
+
+.section-advantages .icon-3 {
+    background-image: url('./img/advantage-3.png');
+}
+
+.section-description-1 .background,
+.section-description-2 .background {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: url('./img/background.png') 100% 50% no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.col-description {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-description-1 .bg-description,
+.section-description-2 .bg-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./img/bg-description-1.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.section-description-2 .background {
+    left: auto;
+    right: 0;
+    background-image: url('./img/background.png');
+    border-radius: 80px 0 0 80px;
+}
+
+.section-description-2 .bg-description {
+    background-image: url('./img/bg-description-2.png');
+}
+
+.section-download .container {
+    position: relative;
+    background: #2D76F9;
+    border-radius: 50px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-download .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background: url('./img/bg-download.png') 50% 50% no-repeat;
+    background-size: cover;
+    /* opacity: .8; */
+}
+
+.section-download .section-content {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-download .actions-container {
+    padding-top: 50px;
+
+}
+
+.section-download .actions-container .btn {
+    margin: 0 30px;
+    
+}
+
+.section-testimonials .background {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: #EEF4FF;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+
+}
+
+.bg-testimonials {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50px;
+    bottom: 0;
+    background: url('./img/bg-testimonials.png') 100% 50% no-repeat;
+    background-size: contain;
+}
+
+.col-testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials ul {
+    padding: 0;
+    margin: 0;
+}
+
+.testimonials li {
+    list-style: none;
+}
+
+.testimonials .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.testimonials .user .avatar {
+    border-radius: 50%;
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+
+
+}
+
+.testimonials .user-info .username {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* color: #747474; */
+
+}
+
+.testimonials .user-info .status {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+    color: #747474;
+
+}
+
+.testimonials .text {
+    color: #212121;
+}
+
+.bx-wrapper {
+    box-shadow: none;
+    background: none;
+    border: none;
+    
+}
+
+.bx-wrapper .bx-controls-direction a {
+    top: 100%;
+}
+
+.bx-wrapper .bx-prev {
+    background: url('./img/la_arrow-left.svg') no-repeat 50% 50%;
+}
+
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-prev:focus,
+.bx-wrapper .bx-next:focus {
+    background-position: 50% 50%;
+}
+
+.bx-wrapper .bx-next {
+    right: auto;
+    left: 70px;
+    background: url('./img/la_arrow-right.svg') no-repeat 50% 50%;
+}
