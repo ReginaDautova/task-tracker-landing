@@ -15,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-
     <title>Task Tracker App</title>
 </head>
 <body>
+    <!-- Main -->
     <section class="section main-section">
         <div class="background">
             <div class="background-phone"></div>
@@ -55,6 +55,7 @@
         </div>
     </section>
 
+    <!-- Advantages -->
     <section class="section section-advantages">
         <div class="container">
             <div class="row">
@@ -77,6 +78,7 @@
         </div>
     </section>
 
+    <!-- Description -->
     <section class="section section-description-1">
         <div class="background">
             <div class="bg-description"></div>
@@ -109,10 +111,10 @@
         </div>
     </section>
 
+    <!-- Download -->
     <section class="section section-download">
         <div class="container">
             <div class="background"></div>
-
             <div class="section-content">
                 <h2 class="h2 h2-secondary">Download an app now and the various benefits you will get immediately</h2>
                 <div class="actions-container">
@@ -123,6 +125,7 @@
          </div>
     </section>
 
+    <!-- Testimonials -->
     <section class="section section-testimonials">
         <div class="background">
             <div class="bg-testimonials"></div>
@@ -142,23 +145,20 @@
                                     <p class="status">Student at University</p>
                                 </div>
                             </div>
-
                             <div class="p text">
                                 “ Hi, it’s Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “
                             </div>
                         </li>
-
                         <li>
                             <div class="user">
                                 <div class="avatar" style="background-image: url('https://wl-adme.cf.tsp.li/resize/728x/jpg/fb1/d1b/28cce45b038d6baddba3db025d.jpg')"></div>
                                 <div class="user-info">
                                     <p class="user-name">Harry Potter</p>
-                                    <p class="status">Student at College</p>
+                                    <p class="status">Student at Hogwarts</p>
                                 </div>
                             </div>
-
                             <div class="p text">
-                                “ Hi, it’s User. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “
+                                “ Hi, it’s Harry. Is very simple using. It's perfect! “
                             </div>
                         </li>
                     </ul>
@@ -167,14 +167,63 @@
         </div>
     </section>
 
-
+    <!-- Footer -->
+    <section class="section section-footer">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-4">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo" class="logo-image">
+                        <span class="logo-text">Remind<span class="logo-important">me</span></span>
+                    </div>
+                    <p class="p">Task deadlines and scheduling applications with various benefits and advantages</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="h3">Sitemaps</h3>
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="#" class="menu-item">Home</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3 class="h3">Advantages</h3>
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="#" class="menu-item">Set Task Better</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item">Easy Manage</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item">Get Notification</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3 class="h3">Follow Us</h3>
+                    <div class="soc-links">
+                        <a href="#" class="soc-link-item facebook"></a>
+                        <a href="#" class="soc-link-item twitter"></a>
+                        <a href="#" class="soc-link-item linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script>
         $(document).ready(function(){
-        $('.testimonials').bxSlider({
-            pager: false,
-            mode: 'fade'
-        });
+            $('.testimonials').bxSlider({
+                pager: false,
+                mode: 'fade'
+            });
         });
     </script>
 </body>
