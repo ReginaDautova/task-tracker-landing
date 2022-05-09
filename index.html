@@ -31,7 +31,7 @@
                         <img src="./img/logo.svg" alt="logo">
                         <span class="logo-text">Remind<span class="logo-important">me</span></span>
                     </div>
-                    <nav class="menu">
+                    <nav class="menu menu-desktop">
                         <ul>
                             <li><a href="#" class="active">Home</a></li>
                             <li><a href="#">Features</a></li>
@@ -42,8 +42,7 @@
                 <div class="d-none d-lg-block col-md-5 text-right">
                     <button class="btn btn-primary">About App</button>
                 </div>
-
-                <div class="col-6 d-lg-none col-md-5 text-right">
+                <div class="col-6 d-block d-lg-none col-md-5 text-right">
                     <i class="menu-burger"></i>
                 </div>
                 <nav class="menu menu-mobile">
@@ -53,7 +52,6 @@
                         <li><a href="#">About us</a></li>
                     </ul>
                 </nav>
-
             </header>
         </div>
         <div class="main-section-content container">
@@ -245,6 +243,14 @@
             setTimeout(() => {
                 bxslider.goToNextSlide();
             }, 100);
+
+            $('.menu-burger').click(() => {
+                if ($('body').hasClass('menu-opened')) {
+                    $('body').removeClass('menu-opened');
+                } else {
+                    $('body').addClass('menu-opened');
+                }
+            })
         });
     </script>
 </body>

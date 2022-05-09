@@ -14,6 +14,7 @@ body {
     padding-top: 20px;
     margin-bottom: 50px;
     z-index: 1;
+    align-items: center;
 }
 
 .menu-burger {
@@ -21,18 +22,55 @@ body {
     position: relative;
     width: 50px;
     height: 50px;
+    border: 1px solid #2D76F9;
+    border-radius: 5px;
 }
 
 .menu-burger:after {
+    display: inline-block;
     position: absolute;
+    content: "";
     width: 30px;
     height: 30px;
     top: 50%;
     left: 50%;
     margin-top: -15px;
     margin-left: -15px;
-    background-image: url('./img/hamburger-menu.svg');
+    background: url('./img/hamburger-menu.svg') 50% 50% no-repeat;
     background-size: contain;
+}
+
+.menu-opened {
+    overflow: hidden;
+}
+
+.menu-mobile {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    bottom: 0;
+    left: 100%;
+    background: white;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu-opened .menu-mobile {
+    left: 0;
+}
+  
+.menu.menu-mobile ul {
+    text-align: left;
+    padding-top: 30px;
+}
+
+.menu.menu-mobile li {
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
+}
+  
+.menu-opened .menu-mobile {
+    left: 0;
 }
 
 .logo, .menu {
